@@ -1,0 +1,43 @@
+.table{
+    margin-left: 220px;
+
+    .tableheading{
+        color: rgb(145, 139, 139);
+        font-weight: bold;
+    }
+    
+    Table{
+        margin-left: 5px;
+        .tableID{
+            width: 350px;
+        }
+    
+        .tableAadhar{
+            width: 240px;
+        }
+    
+        .tableWorkerName{
+            width: 170px;
+        }
+        .tableStatus{
+            width: 150px;
+        }
+    
+        .status{
+            padding: 5px;
+            border-radius: 5px;
+            color: green;
+            background-color: rgba(0, 128, 0, 0.151);
+    
+            // &.Approved{
+            //     color: green;
+            //     background-color: rgba(0, 128, 0, 0.151);
+            // }
+    
+            // &.Pending{
+            //     color: goldenrod;
+            //     background-color: rgba(189, 189, 0, 0.103);
+            // }
+        }
+    }
+}
